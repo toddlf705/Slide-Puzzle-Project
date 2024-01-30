@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    color: #522100c4;
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+#title{
+    font-size: 60px;
+    
+}
+
+#board {
+    width: 360px;
+    height: 360px;
+    background-color: #eeeded;
+    margin: 0 auto;
+    border: 10px solid #ffbc8f;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img{
+    width: 118px;
+    height: 118px;
+    border: 1px #ffbc8f;
+}
+
+#section3{
+    display: flex;
+    justify-content: center;
+}
+
+#refresh{
+    margin-left: 60px;
+    margin-top: 27px;
+    border: solid 2px #522100c4;
+    background-color: #ffbc8f;
+    border-radius: 7px;
+}
+
+#restart{
+    opacity: 0;
+    position: absolute;
+    margin: auto;
+    margin-left: -45px;
+    margin-top: 170px;
+    border: solid 2px #522100c4;
+    background-color: #ffbc8f;
+    border-radius: 7px;
+    font-size: 25px;
+    font-family: 'Gamja Flower', sans-serif;
+}
