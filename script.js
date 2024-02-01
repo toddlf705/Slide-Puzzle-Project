@@ -5,11 +5,9 @@ let currTile
 let otherTile
 
 let turns = 0
-
+ 
 const startOver = document.querySelector("#refresh")
-const restart = document.querySelector("#restart")
 
-//let imgOrder = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
 let imgOrder = ["8", "2", "5", "4", "1", "3", "7", "9", "6"]
 
 
@@ -31,15 +29,8 @@ function playgame () {
             tile.addEventListener("dragleave", dragLeave)
             tile.addEventListener("drop", dragDrop)
             tile.addEventListener("dragend", dragEnd)
-
-            // startOver.addEventListener('click',() => {
-            //     let turnsval = document.querySelector("#turns")
-            //     turns = 0
-            //     turnsval.innerText = 0
-            //     document.getElementById("board").removeChild(tile)
-            //     restart.style.opacity = 1
-            // })
-        }
+        
+        } 
     }
 }
 
