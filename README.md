@@ -6,7 +6,7 @@ Project #1
 <img src = "logos.jpeg" style = "width: 400px; height: 250px";>
 
 <h2> Description </h2>
-<img src = "Slide Puzzle.png">
+<img src = "Sliding Puzzle.png">
 
 This game is a sliding puzzle where players drag and drop or "slide" the puzzle images to a blank grid to complete the full image.
 Each turn counts up as players make a move, and players won't be able to move blocks to other blocks that are not adjacent to the current block in which player is moving.
