@@ -29,24 +29,3 @@ body{
     display: flex;
     justify-content: center;
 }
-
-#refresh{
-    margin-left: 60px;
-    margin-top: 27px;
-    border: solid 2px #522100c4;
-    background-color: #ffbc8f;
-    border-radius: 7px;
-}
-
-#restart{
-    opacity: 0;
-    position: absolute;
-    margin: auto;
-    margin-left: -45px;
-    margin-top: 170px;
-    border: solid 2px #522100c4;
-    background-color: #ffbc8f;
-    border-radius: 7px;
-    font-size: 25px;
-    font-family: 'Gamja Flower', sans-serif;
-}
